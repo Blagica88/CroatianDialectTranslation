@@ -29,9 +29,11 @@ Finally, you can train the model using the following command: <br>
 ./run_final.sh <br>
 
 
-##Acknlowledgments and References
+## Acknlowledgments and References
 This repository borrowed from these repositories: <br>
 https://github.com/NLP2CT/Unsupervised_Dialect_Translation.git <br>
 https://github.com/facebookresearch/UnsupervisedMT <br>
+<br>
+<br>
 If you have any questions or feedback, you can contact us at blagica.penkova@ireason.com
 
