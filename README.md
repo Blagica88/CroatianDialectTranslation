@@ -9,7 +9,7 @@ Link to the paper:
 ## Running Unsupervised NMT
 ### Dataset <br>
 The monolingual dataset of standard Croatian and the dialect dataset, which we created from scratch, are both contained in the data/mono folder. <br>
-The parallel sentences for evaluation that were translated from croation dialects into Croatian by a human linguist are stored in the data/para/dev folder.
+The parallel sentences for evaluation that were translated from croation dialects into Croatian standard language by a human linguist are stored in the data/para/dev folder.
 
 ### Pre-processing of the data
 To start with the preprocessing just run: <br>
