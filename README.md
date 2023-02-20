@@ -1,6 +1,6 @@
 # CroationDialectTranslation
 
-This repository contains the implementation of an Unsupervised NMT model to translate from Croation Dialect to standard Croation language,Without using a single parallel sentence during training.
+This repository contains the implementation of an Unsupervised NMT model to translate from Croation Dialect to standard Croation language without using a single parallel sentence during training.
 
 Link to the paper: 
 
@@ -20,11 +20,11 @@ install tools (Moses scripts, fastBPE ,fastText ),
 tokenize monolingual data, apply BPE codes on monolingual data and on the parallel data which is for evaluation, than extract training vocabulary and will binarize the monolingual and parallel data.
 
 
-### Integrated cross-lingual embeddings
+### Cross-lingual embeddings
 We did not train another fastText model on the concatenated and shuffled dataset created from the two monolingual datasets, the dialect one, and the one with the standardized language.We were using other approach approach which is based on MUSE where the monolingual fastText embeddings are aligned in a common space to obtain multilingual word embeddings. The alignment is done using the unsupervised approach and only utilizes a bilingual dictionary of pairs of dialect words and standard words for the evaluation. The MUSE-aligned centred embeddings between the two languages are learnt using adversarial training and (iterative) Procrustes refinement.
 
 
-### Utilization of the UNMT architecture to build our model
+### Train the UNMT model
 Finally, you can train the model using the following command: <br>
 ./run_final.sh <br>
 
