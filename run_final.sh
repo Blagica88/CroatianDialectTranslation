@@ -1,0 +1,38 @@
+python main.py --exp_name simplified_bt --transformer True --langs 'cr,st' --n_mono -1 \
+  --reload_model './simplified_bt/s3na549ma4/checkpoint.pth' \
+  --reload_enc True \
+  --reload_dec True \
+  --reload_dis False \
+	--mono_dataset 'cr:./data/mono/all.cr.tok.60000.pth,,;st:./data/mono/all.st.tok.60000.pth,,' \
+	--para_dataset 'cr-st:,./data/para/dev/valid.XX.60000.pth,./data/para/dev/tst.XX.60000.pth' \
+	--mono_directions "st,cr" \
+  --pivo_directions "st-cr-st" \
+	--pretrained_emb './data/mono/all.st.60000.vec,./data/mono/all.cr.60000.vec'\
+	--pretrained_shared_emb "./data/mono/new_vectors-st-cr.txt" \
+  --vocab  "cr:./data/mono/vocab.st-cr.60000;st:./data/mono/vocab.st-cr.60000"\
+	--pretrained_out True \
+	--otf_num_processes 10 \
+	--otf_sync_params_every 1000 \
+	--epoch_size 200 \
+	--batch_size 64 \
+  --stopping_criterion "bleu_st_cr_valid,1000" \
+	--lambda_xe_mono 0:1,100000:0.1,300000:0 \
+	--lambda_xe_otfd 1 \
+	--max_len 64 \
+	--n_enc_layers 4 \
+	--n_dec_layers 4 \
+	--share_enc 4 \
+	--share_dec 4 \
+	--word_shuffle 2 --word_dropout 0.1 --word_blank 0.2 \
+	--share_encdec_emb True \
+	--share_decpro_emb True \
+	--enc_optimizer adam,lr=0.0001 \
+	--dec_optimizer adam,lr=0.0001 \
+	--dis_optimizer rmsprop,lr=0.00025 \
+	--dropout 0.1 \
+	--relu_dropout 0.1 \
+	--attention_dropout 0.1 \
+  --emb_dim 1024 \
+	--shared_emb_dim 512 \
+	--dump_path "./" 
+
