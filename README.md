@@ -21,7 +21,7 @@ tokenize monolingual data, apply BPE codes on monolingual data and on the parall
 
 
 ### Cross-lingual embeddings
-We did not train another fastText model on the concatenated and shuffled dataset created from the two monolingual datasets, the dialect one, and the one with the standardized language.We were using other approach approach which is based on MUSE where the monolingual fastText embeddings are aligned in a common space to obtain multilingual word embeddings. The alignment is done using the unsupervised approach and only utilizes a bilingual dictionary of pairs of dialect words and standard words for the evaluation. The MUSE-aligned centred embeddings between the two languages are learnt using adversarial training and (iterative) Procrustes refinement.
+We did not train another fastText model on the concatenated and shuffled dataset created from the two monolingual datasets, the dialect one, and the one with the standardized language.We were using other approach which is based on MUSE where the monolingual fastText embeddings are aligned in a common space to obtain multilingual word embeddings. The alignment is done using the unsupervised approach and only utilizes a bilingual dictionary of pairs of dialect words and standard words for the evaluation. The MUSE-aligned centred embeddings between the two languages are learnt using adversarial training and (iterative) Procrustes refinement.
 
 
 ### Train the UNMT model
