@@ -28,5 +28,5 @@ We did not train another fastText model on the concatenated and shuffled dataset
 Finally, you can train the model using the following command: <br>
 ./run_final.sh <br>
 
-If you have any questions or feedback, you can contact me at blagica.penkova@ireason.com
+If you have any questions or feedback, you can contact us at blagica.penkova@ireason.com
 
