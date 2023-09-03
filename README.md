@@ -35,5 +35,5 @@ https://github.com/NLP2CT/Unsupervised_Dialect_Translation.git <br>
 https://github.com/facebookresearch/UnsupervisedMT <br>
 <br>
 <br>
-If you have any questions or feedback, you can contact us at blagica.penkova@ireason.com
+If you have any questions or feedback, you can contact us at penkovab@yahoo.com
 
