@@ -2,7 +2,7 @@
 
 This repository contains the implementation of an Unsupervised NMT model to translate from Croation Dialect to standard Croation language without using a single parallel sentence during training.
 
-Link to the paper: 
+Link to the paper: https://ieeexplore.ieee.org/document/10159848
 
 
 
