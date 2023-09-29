@@ -29,15 +29,15 @@ Finally, you can train the model using the following command: <br>
 ./run_final.sh <br>
 
 ## Reference
-@INPROCEEDINGS{10159848,
-  author={Penkova, Blagica and Mitreska, Maja and Ristov, Kiril and Mishev, Kostadin and Simjanoska, Monika},
-  booktitle={2023 46th MIPRO ICT and Electronics Convention (MIPRO)}, 
-  title={Learning Translation Model to Translate Croatian Dialects to Modern Croatian Language}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1083-1088},
-  doi={10.23919/MIPRO57284.2023.10159848}}
+@INPROCEEDINGS{10159848,<br>
+  author={Penkova, Blagica and Mitreska, Maja and Ristov, Kiril and Mishev, Kostadin and Simjanoska, Monika},<br>
+  booktitle={2023 46th MIPRO ICT and Electronics Convention (MIPRO)}, <br>
+  title={Learning Translation Model to Translate Croatian Dialects to Modern Croatian Language}, <br>
+  year={2023},<br>
+  volume={},<br>
+  number={},<br>
+  pages={1083-1088},<br>
+  doi={10.23919/MIPRO57284.2023.10159848}}<br>
 
 ## Acknlowledgments and References
 This repository borrowed from these repositories: <br>
